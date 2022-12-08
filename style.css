@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph{
+    height: auto;
+    width: 40%;
+    color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    background-color: rgb(10,10,10);
+    margin: auto;
+    margin-top: 7%;
+    padding: 0.3%;
+    border: 2px white solid;
+}
+
+.paragraph h1{
+    margin-left: 40%;
+    font-size: x-large;
+}
+
+    
+
+.paragraph p{
+    margin: 2%;
+}
+
+@media screen and (max-width: 1200px) {
+    .paragraph{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .paragraph{
+        width: 90%;
+    }
+}
